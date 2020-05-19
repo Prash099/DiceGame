@@ -1,0 +1,80 @@
+body {
+  background-color: #393E46;
+}
+/*---------------------------------------------Heading------------------------------------------------------------------*/
+p {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #4ECCA3;
+  font-weight: lighter;
+  font-style: italic;
+  text-shadow: 5px 0 #232931;
+  margin-top: 0;
+  font-size: 75px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #4ECCA3;
+  font-stretch: semi-expanded;
+  font-weight: lighter;
+  text-shadow: 1px;
+  font-style: italic;
+  position: relative;
+  left: 375px;
+}
+
+ /*------------------------------------------------------Dice Indian-------------------------------------------------*/
+
+.container1 {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 0;
+
+}
+
+.player {
+  display: inline-block;
+  text-align: center;
+}
+
+.img {
+  width: 80%;
+  position: relative;
+  left: 375px;
+}
+
+
+/*------------------------------------------------ footer ---------------------------------------------------------------*/
+
+.bottomcontainer {
+  text-align: center;
+  position: relative;
+  color: white;
+  top: 50px;
+}
+
+@media (max-width: 1028px){
+
+  .container1 {
+    text-align: center;
+    position: relative;
+    right: 375px;
+  }
+  .img {
+    text-align: center;
+  }
+}
