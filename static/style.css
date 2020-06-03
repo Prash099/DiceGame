@@ -60,10 +60,9 @@ h3 {
 
 .bottomcontainer {
   text-align: center;
+  position: fixed;
   bottom: 0px;
-  position: relative;
   color: white;
-  top: 50px;
 }
 
 @media (max-width: 1028px){
