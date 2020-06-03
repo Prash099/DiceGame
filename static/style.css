@@ -60,6 +60,7 @@ h3 {
 
 .bottomcontainer {
   text-align: center;
+  bottom: 0px;
   position: relative;
   color: white;
   top: 50px;
